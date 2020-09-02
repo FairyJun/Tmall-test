@@ -286,11 +286,13 @@ main {
 	border-radius: 9px;
 }
 .brand-item:hover .mask{
+	/* 设置背景的透明度 */
 	opacity: 1;
 	filter: alpha(opacity=80);
 }
 /*换一批*/
 .brand-fresh .rotate-icon{
+	/* 设置块级元素 */
 	display: block;
 	font-size: 30px;
 	color: #999;
@@ -432,6 +434,170 @@ main {
 	height: 140px;
 }
 /*分类频道开始结束--------------------*/
+
+/* 楼层开始 */
+/*商品分类层开始---------------------*/
+.floor{
+	margin-top: 20px;
+}
+/*广告*/
+.ad{
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+.ad img{
+	width: 1620px;
+	height: 90px;
+	margin-left: -165px;/*使广告主体居中*/
+}
+/*右上角热门导航*/
+.hot-nav{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	text-align: center;
+}
+.hot-nav li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.hot-nav a{
+	color: #000;
+}
+.hot-nav a:hover{
+	text-decoration: underline;
+}
+
+/*左侧banner部分*/
+.module-banner{
+	float: left;
+	width: 245px;
+	height: 440px;
+	position: relative;
+}
+.module-banner img{
+	width: 245px;
+	height: 330px;
+	transition: opacity .5s;
+}
+.module-banner .hot-con{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.module-banner .hot-slider{
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #000;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	overflow: hidden;
+	position: relative;
+}
+.module-banner .slider-list{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.module-banner .hot-recommend{
+	padding-top: 20px;
+	color: #fff;
+}
+.module-banner .hot-recommend h4{
+	font-size: 22px;
+
+}
+.module-banner .hot-recommend p{
+	font-size: 18px;
+}
+.module-banner .decoration{
+	display: block;
+	height: 30px;
+	background: url(../images/content/decoration.png) no-repeat center;
+}
+.module-banner:hover img{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.module-banner:hover .hot-slider{
+	color: #dd2727;
+}
+
+/*商品列表（包括hot-list与recommend-list)*/
+.module-list{
+	float: left;
+}
+.module-list li{
+	float: left;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	padding: 20px 0 0 20px;
+	background: #fff;
+	position: relative;
+}
+.module-list h4{
+	height: 24px;
+	line-height: 24px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000;
+}
+.module-list h5{
+	font-size: 16px;
+	font-weight: normal;
+	color:#000;
+}
+.module-list p{
+	height: 18px;
+	font-size: 14px;
+}
+.module-list img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transition: right .3s ease-out;
+}
+.hot-list{
+	width: 735px;
+}
+.recommend-list{
+	width: 246px;
+}
+.hot-list li{
+	width: 224px;
+	height: 200px;
+}
+.recommend-list li{
+	width: 228px;
+	height: 126px;
+}
+.hot-list img{
+	width: 154px;
+	height: 154px;
+}
+.recommend-list img{
+	width: 100px;
+	height: 100px;
+}
+/*floor-CDKW的单独样式*/
+.floor-CDKW .hot-item{
+	width: 469px;
+}
+.floor-CDKW .recommend-list li{
+	height: 200px;
+}
+.module-list li:hover img{
+	right: 5px;
+}
 
 /* 底部模块制作 */
 #footer{
