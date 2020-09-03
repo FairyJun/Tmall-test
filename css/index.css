@@ -196,6 +196,7 @@ main {
 	margin: 60px auto 0;
 	height: 440px;
 	position: relative;
+	background-color: #f5f5f5;
 	background: url(../images/content-loading.gif) no-repeat center center;
 }
 .module-title{
@@ -334,8 +335,8 @@ main {
 }
 .recommend-brand li{
 	height: 75px;
-	padding: 9px 18px;
-	margin-bottom: 9px;
+	padding: 0px 18px;
+	margin-bottom: 20px;
 }
 .brand-logo{
 	float: left;
@@ -559,6 +560,7 @@ main {
 .module-list p{
 	height: 18px;
 	font-size: 14px;
+	color: #f7a945;
 }
 .module-list img{
 	position: absolute;
@@ -573,16 +575,16 @@ main {
 	width: 246px;
 }
 .hot-list li{
-	width: 224px;
-	height: 200px;
+	width: 244px;
+	height: 215px;
 }
 .recommend-list li{
 	width: 228px;
-	height: 126px;
+	height: 145px;
 }
 .hot-list img{
 	width: 154px;
-	height: 154px;
+	height: 140px;
 }
 .recommend-list img{
 	width: 100px;
@@ -592,11 +594,63 @@ main {
 .floor-CDKW .hot-item{
 	width: 469px;
 }
+.floor-QZSG .color-mark, .floor-QZSG .hot-recommend {
+    background: #f7a945;
+}
 .floor-CDKW .recommend-list li{
 	height: 200px;
 }
 .module-list li:hover img{
 	right: 5px;
+}
+
+/*各个分类层大标题前的color-mark与banner的推荐内容的背景*/
+.floor-QZSG .color-mark,
+.floor-QZSG .hot-recommend{
+	background: #f7a945;
+}
+.floor-QZSG .module-list p{
+	color: #f7a945;
+}
+
+.floor-HWCX .color-mark,
+.floor-HWCX .hot-recommend{
+	background: #19c8a9;
+}
+.floor-HWCX .module-list p{
+	color: #19c8a9;
+}
+
+.floor-DZAC .color-mark,
+.floor-DZAC .hot-recommend{
+	background: #f15453;
+}
+.floor-DZAC .module-list p{
+	color: #f15453;
+}
+
+.floor-JJSH .color-mark,
+.floor-JJSH .hot-recommend{
+	background:#64c333;
+}
+.floor-JJSH .module-list p{
+	color:#64c333;
+}
+
+.floor-CDKW .color-mark,
+.floor-CDKW .hot-recommend{
+	background:#0aa6e8;
+}
+.floor-CDKW .module-list p{
+	color:#0aa6e8;
+}
+
+.floor-MLRS .color-mark,
+.floor-MLRS .hot-recommend{
+	background:#ea5f8d;
+}
+.floor-MLRS .module-list p{
+	color:#ea5f8d;
 }
 
 /* 底部模块制作 */
