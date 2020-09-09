@@ -613,14 +613,16 @@ main {
 }
 .shop-list .shop-item{
 	float: left;
-	width: 613px;
+	width:608px;
 	height: 326px;
-	padding: 10px;
+	padding: 5px;
 	margin-right: 1px;
 	margin-bottom: 1px;
 	background: #fff;
 }
-
+.shop-list .shop-item:hover{
+	border: 1px solid red;
+}
 /*旗舰店的头部*/
 .shop-header{
 	width: 100%;
@@ -728,6 +730,30 @@ main {
 .floor-MLRS .module-list p{
 	color:#ea5f8d;
 }
+
+/*猜你喜欢开始*/
+.floor-CNXH{
+	margin-top: 30px;
+}
+.floor-CNXH h3{
+	height: 43px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;
+	color: #666;
+}
+.floor-CNXH .iconfont{
+	font-size: 20px;
+	color: #dd2727;
+}
+.box{
+	
+	margin: 0px 20px;
+}
+.box ul li{
+	display: inline;
+}
+/*主体内容结束------------------*/
 
 /* 底部模块制作 */
 #footer{
