@@ -46,15 +46,6 @@
     margin-right: 5px;
     color: #d1444f;
 }
-/*快速导航部分开始 --------*/
-.sn-quick-menu>li{
-	float: left;
-	position: relative;
-}
-.sn-quick-menu>li>a{
-	display: inline-block;
-	padding: 0 14px 0 10px;
-}
 .sub-menu{
 	position: absolute;
 	top: 32px;
@@ -93,164 +84,6 @@
 .menu-item:hover .sub-menu,
 .sn-mobile:hover .sn-qrcode{
 	display: block;
-}
-
-/*分隔线*/
-li.sn-separator{
-	padding-left: 5px;
-}
-
-/*手机版二维码*/
-.sn-mobile .sn-qrcode{
-	position: absolute;
-	top: 26px;
-	left: -46px;
-	height: 215px;
-	background: #fff;
-	box-shadow: 0 0 5px #aaa;
-	display: none;
-	z-index: 1000;
-}
-.sn-mobile .sn-qrcode-content{
-	width: 175px;
-	height: 175px;
-	background: url(../images/sn-qrcode.png) no-repeat;
-}
-.sn-mobile .sn-qrcode p{
-	text-indent: -9999px;
-	margin: 0 15px;	
-	background: url(../images/sn-qrcode-p.png) no-repeat;
-}
-/*二维码上方三角形*/
-.sn-mobile .triangle{
-	position: absolute;
-	top: -5px;
-	left: 50%;
-	margin-left: -2px;
-	width: 0;
-	height: 0;
-	border: 5px solid transparent;
-	border-bottom-color: #fff;
-	border-top: none;
-}
-/*手机版二维码结束*/
-
-/*商家支持开始*/
-.sn-seller li{
-	padding: 5px 0;
-	border-bottom: 1px dotted #827777;
-}
-.sn-seller h3{
-	padding: 0 5px;
-}
-.sn-seller .sub-menu a{
-	margin: 0 5px;
-}
-/*商家支持结束*/
-
-/*网站导航开始*/
-.sn-sitemap .sub-menu div{
-	height: 200px;
-	float: left;
-	padding-left: 30px;
-	border-right: 1px solid #e5e5e5;
-}
-.site-hot{
-	width: 285px;
-}
-.site-market{
-	width: 380px;
-}
-.site-brand{
-	width: 285px;
-}
-.site-help{
-	width: 115px;
-	border: none !important;
-}
-.site-list li{
-	float: left;
-	width: 95px;
-	padding: 6px 0;
-	line-height: 1.5;
-}
-.sn-sitemap h2{
-	font-size: 16px;
-	font-weight: 400;
-	padding-bottom: 8px;
-}
-.sn-sitemap a{
-	position: relative;
-}
-.site-hot h2,
-.site-hot a:hover{
-	color: #f56a00;
-}
-.site-market h2,
-.site-market a:hover{
-	color:#2263d4;
-}
-.site-brand h2,
-.site-brand a:hover{
-	color:#000;
-}
-.site-help a:hover{
-	color: #666;
-	text-decoration: underline;
-}
-.sn-sitemap-icon{
-	position: absolute;
-	top: -11px;
-	right: -9px;
-	width: 9px;
-	height: 11px;
-	background: url(../img/sprite.png) no-repeat;
-}
-.sn-sitemap-icon-new{
-	background-position: -37px -11px;
-}
-.sn-sitemap-icon-hot{
-	background-position: -37px 0;
-}
-/*网站导航结束*/
-
-/*顶部导航site-nav的小三角hover动画*/
-@keyframes halfRotate{
-	0%{
-		transform: rotate(0deg);
-	}
-	100%{
-		transform: rotate(180deg);
-	}
-}
-.menu-item:hover .triangle{
-  animation: halfRotate .5s ease forwards;
-}
-/*顶部导航site-nav的小三角hover动画结束*/
-/*快速导航部分结束--------------*/
-/*顶部导航site-nav------*/
-#site-nav{
-	line-height: 32px;
-	color: #999;
-}
-.login-info{
-	float: left;
-}
-.sn-quick-menu{
-	float: right;
-}
-
-.sn-container a{
-	color: #999;
-}
-.sn-container a:hover{
-	color: #c40000;
-}
-.menu-item a:hover{
-	text-decoration: underline;
-}
-.menu-item:hover{
-	background: #fff;
 }
 /*顶部导航部分见公共样式部分-------------*/
 #register .sn-sitemap .sub-menu{
@@ -299,16 +132,6 @@ li.sn-separator{
 }
 .hotwords a {
     margin: 0 10px;
-}
-.img {
-    width: 290px;
-	float: right;
-	margin-right: -650px;
-}
-.img a {
-    display: block;
-    position: absolute;
-    top:25px
 }
 /* nav模块制作 */
 .nav {
